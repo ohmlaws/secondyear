@@ -1,0 +1,178 @@
+---
+title: "Synchronous Motor and MG Set"
+description: >-
+  Electrician Trade Theory, Module-6
+date: 2025-05-15 01:38:53 +0530
+categories: [2nd year, Trade Theory]
+tags: [Theory, ITI]
+author: Roni
+image:
+  path: /assets/img/banner/theory/theory-m6.webp
+---
+
+<br>
+<div onclick="checkAnswer(this)" style="text-align: center;">⭕️ Show all Answers</div>
+<br>
+
+<h3 id="q1">Q1: What is the name of the converter?</h3>
+<img src="/assets/img/posts/theory/m6-q1.webp" alt="Converter diagram">
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Metal rectifier</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Rotary converter</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Mercury arc rectifier</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Silicon controlled rectifier</li>
+</ul>
+<hr>
+<h3 id="q2">Q2: What is the name of the converter?</h3>
+<img src="/assets/img/posts/theory/m6-q2.webp" alt="Rotary converter diagram">
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Metal rectifier</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Rotary converter</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Mercury arc rectifier</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Motor-Generator set</li>
+</ul>
+<hr>
+<h3 id="q3">Q3: Why D.C supply is necessary for synchronous motor operation?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Reduce the losses</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Start the motor initially</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Run the motor with over load</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Run the motor at synchronous speed</li>
+</ul>
+<hr>
+<h3 id="q4">Q4: Which acts as both inverter and converter?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Metal rectifier</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Mercury arc rectifier</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Semi conductor diode</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Synchronous converter</li>
+</ul>
+<hr>
+<h3 id="q5">Q5: What is the function of inverter?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Convert A.C to D.C</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Convert D.C to A.C</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Smoothening AC sine wave</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Convert pulsating DC into pure D.C</li>
+</ul>
+<hr>
+<h3 id="q6">Q6: Which converting device can be over loaded?</h3>
+<ul>
+<li onclick="checkAnswer(this, true)" data-correct="true">Rectifier unit</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Rotary converter</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Motor generator set</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Mercury arc rectifier</li>
+</ul>
+<hr>
+<h3 id="q7">Q7: Why exciter is essential to run a synchronous motor?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Carry more load in motor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Improve the power factor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Reduce the losses in motor</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Run the motor at synchronous speed</li>
+</ul>
+<hr>
+<h3 id="q8">Q8: Which application requires only DC?</h3>
+<ul>
+<li onclick="checkAnswer(this, true)" data-correct="true">Electroplating</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Stepping up of voltage</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Operating induction motor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Operating repulsion motor</li>
+</ul>
+<hr>
+<h3 id="q9">Q9: Why the LED's are avoided as converters in rectifier diodes?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Heavily doped device</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Very low power device</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Designed for light emitting</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Very sensitive to temperature</li>
+</ul>
+<hr>
+<h3 id="q10">Q10: Which is the main application of synchronous motor?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Elevators</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Paper rolling mills</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">AC to DC converter</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Power factor correction device</li>
+</ul>
+<hr>
+<h3 id="q11">Q11: What is the advantage of motor generator set?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Noiseless</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">High efficiency</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Low maintenance required</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">DC output voltage can be easily controlled</li>
+</ul>
+<hr>
+<h3 id="q12">Q12: What is the function of the part marked as 'X' of the rotary converter?</h3>
+<img src="/assets/img/posts/theory/m6-q12.webp" alt="Rotary converter part marked X">
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Converts AC to DC</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Reduces voltage drop</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Helps to deliver without noise</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Collects the delivered direct current</li>
+</ul>
+<hr>
+<h3 id="q13">Q13: What is the purpose of damper winding in a synchronous motor at starting?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Produce high voltage to initiate the rotation</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Produce high current to start rotate the motor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Produces torque and runs near in synchronous speed</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Produce a high magnetic-field to maintain a constant speed</li>
+</ul>
+<hr>
+<h3 id="q14">Q14: Why the synchronous motor fails to run at synchronous speed?</h3>
+<ul>
+<li onclick="checkAnswer(this, true)" data-correct="true">Insufficient excitation</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Defective pony motor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Open in damper winding</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Short in damper winding</li>
+</ul>
+<hr>
+<h3 id="q15">Q15: How the synchronous motor is used as a synchronous condenser?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Varying the motor load</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Varying the rotor excitation</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Varying stator voltage in motor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Varying stator current in motor</li>
+</ul>
+<hr>
+<h3 id="q16">Q16: What is the function of damper windings in synchronous motor?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Maintain power factor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Excite the field winding</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Maintain constant speed</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Start the synchronous motor</li>
+</ul>
+<hr>
+<h3 id="q17">Q17: Which converter is having high efficiency?</h3>
+<ul>
+<li onclick="checkAnswer(this, true)" data-correct="true">SCR converter</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Rotary converter</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Motor generator set</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Mercury arc rectifier</li>
+</ul>
+<hr>
+<h3 id="q18">Q18: How synchronous motor works as a power factor corrector?</h3>
+<ul>
+<li onclick="checkAnswer(this, false)" data-correct="false">Varying the line voltage</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Varying the field excitation</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Increasing the speed of motor</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Decreasing the speed of motor</li>
+</ul>
+<hr>
+
+
+
+
+<script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
+
+<style>
+ul li {
+  cursor: pointer;
+  margin: 6px 0;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+</style>
