@@ -272,7 +272,7 @@ image:
 1805 mm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 2600 mm²
-</li> </ul> <hr> 
+</li> </ul> <hr>
 <h3 id="q28">Q28: What is the name of the shaded portion?</h3> <img src="/assets/img/posts/wcs/m2-q28.webp" alt="shaded portion"> <ul> <li onclick="checkAnswer(this, true)" data-correct="true">Segment</li> <li onclick="checkAnswer(this, false)" data-correct="false">Sector</li> <li onclick="checkAnswer(this, false)" data-correct="false">Arc</li> <li onclick="checkAnswer(this, false)" data-correct="false">Chord</li> </ul> <hr>
  <h3 id="q29">Q29: Which line is called as chord?</h3> <img src="/assets/img/posts/wcs/m2-q29.webp" alt="chord"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">ED</li> <li onclick="checkAnswer(this, true)" data-correct="true">AB</li> <li onclick="checkAnswer(this, false)" data-correct="false">OD</li> <li onclick="checkAnswer(this, false)" data-correct="false">OE</li> </ul> <hr> 
 <h3 id="q30">Q30: What is the area of the circle, whose diameter is 50 cm?</h3> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
