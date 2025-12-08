@@ -22,6 +22,10 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">216 V</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">211 V</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+240V-5% = 228V
+</details>
 <hr>
 <h3 id="q2">Q2: Which term refers that the mass of a substance liberated from an electrolyte by one coulomb of electricity?</h3>
 <ul>
@@ -241,7 +245,10 @@ image:
 </ul>
 <hr>
 
-
+<div class="text-center text-muted mt-3">
+  Found a mistake or mismatch in the question or answer? 
+  <a href="mailto:roniui.github.io@gmail.com?subject=Mistake or mismatch&body=Paste the post link here:%0D%0A%0D%0AQuestion number:%0D%0A%0D%0ADescribe what is wrong:">Let us know via email</a>.
+</div>
 
 <script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
 
