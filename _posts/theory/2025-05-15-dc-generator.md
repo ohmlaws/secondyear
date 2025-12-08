@@ -431,6 +431,22 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">357 V</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">428 V</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+* Number of poles ($P$) = $4$
+* Number of conductors ($Z$) = $1020$
+* Speed ($N$) = $1500 \text{ rpm}$
+* Flux per pole ($\phi$) = $0.007 \text{ Wb}$
+* Winding type = Simplex Wave Wound
+The generated EMF ($E_g$) in a DC generator is calculated using the formula:
+$$E_g = \frac{\phi Z N P}{60 A}$$
+
+For a **Wave Wound** armature, the number of parallel paths ($A$) is always equal to 2, regardless of the number of poles.
+
+$$E_g = \frac{0.007 \times 1020 \times 1500 \times 4}{60 \times 2}$$
+
+$$E_g = 357 \text{ Volts}$$
+</details>
 <hr>
 <h3 id="q52">Q52: How the effect of armature reaction can be neutralized in large DC generators?</h3>
 <ul>
@@ -455,6 +471,21 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">480V</li>
 <li onclick="checkAnswer(this, true)" data-correct="true">640V</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+**Formula:**
+$$E_g = \frac{\phi Z N P}{60 A}$$
+
+* $\phi = 0.064 \text{ Wb}$
+* $Z = 600$
+* $N = 1000 \text{ rpm}$
+* $P = 4$
+* $A = 4$ (For Lap winding, $A = P$)
+ 
+$$E_g = \frac{0.064 \times 600 \times 1000 \times 4}{60 \times 4}$$
+
+$$E_g = 640 \text{ V}$$
+</details>
 <hr>
 <h3 id="q55">Q55: What is the effect on induced emf if the main field flux get distorted in DC generator?</h3>
 <ul>
@@ -473,6 +504,10 @@ image:
 </ul>
 <hr>
 
+<div class="text-center text-muted mt-3">
+  Found a mistake or mismatch in the question or answer? 
+  <a href="mailto:roniui.github.io@gmail.com?subject=Mistake or mismatch&body=Paste the post link here:%0D%0A%0D%0AQuestion number:%0D%0A%0D%0ADescribe what is wrong:">Let us know via email</a>.
+</div>
 <script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
 <style>
 ul li {
