@@ -20,13 +20,13 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">VDR</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">NTC</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">PTC</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">LDR 1</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">LDR</li>
 </ul>
 <hr>
 <h3 id="q2">Q2: Which code indicates silicon semi conductor diode?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">OA 79</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">BY 126 2</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">BY 126</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">IN 4007</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">2N 3055</li>
 </ul>
@@ -35,7 +35,7 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">$F = \frac{1}{2} F_{in}$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$F = F_{in}$</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">$F = 2F_{in}$ 3</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">$F = 2F_{in}$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$F = \sqrt{2}F_{in}$</li>
 </ul>
 <hr>
@@ -44,7 +44,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Inductor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Resistor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Capacitor</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Transistor 4</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Transistor</li>
 </ul>
 <hr>
 <h3 id="q5">Q5: Which letter indicates the compound material cadmium sulphide?</h3>
@@ -52,7 +52,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">A</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">B</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">C</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">R 5</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">R</li>
 </ul>
 <hr>
 <h3 id="q6">Q6: What is the name of the symbol?</h3>
@@ -61,7 +61,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Two input OR gate</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Two input AND gate</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Two input NOR gate</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Two input NAND gate 6</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Two input NAND gate</li>
 </ul>
 <hr>
 <h3 id="q7">Q7: Which is a passive component?</h3>
@@ -69,7 +69,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Diac</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Diode</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Transistor</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Capacitor 7</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Capacitor</li>
 </ul>
 <hr>
 <h3 id="q8">Q8: What is the name of the device symbol?</h3>
@@ -77,7 +77,7 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">SCR</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">IGBT</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">DIAC 8</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">DIAC</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">TRIAC</li>
 </ul>
 <hr>
@@ -86,7 +86,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">6</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">8</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">12</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">16 9</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">16</li>
 </ul>
 <hr>
 <h3 id="q10">Q10: Which electronic circuit generates A.C signal without input?</h3>
@@ -94,14 +94,14 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Filter circuit</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Rectifier circuit</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Amplifier circuit</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Oscillator circuit 10</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Oscillator circuit</li>
 </ul>
 <hr>
 <h3 id="q11">Q11: Which instrument provides a visual representation of measured or tested quantities?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Voltage stabilizer</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Function generator</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Cathode ray oscilloscope 11</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Cathode ray oscilloscope</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Radio frequency generator</li>
 </ul>
 <hr>
@@ -109,7 +109,7 @@ image:
 <img src="/assets/img/posts/theory/m7-q12.webp" alt="Amplifier circuit diagram">
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Common emitter amplifier</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Class B push pull amplifier 12</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Class B push pull amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Common collector amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Class AB push pull amplifier</li>
 </ul>
@@ -118,7 +118,7 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">$F_r = \frac{1}{2LC}$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$F_r = \frac{1}{\sqrt{2LC}}$</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">$F_r = \frac{1}{2\pi\sqrt{LC}}$ 13</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">$F_r = \frac{1}{2\pi\sqrt{LC}}$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$F_r = \frac{LC}{2\pi}$</li>
 </ul>
 <hr>
@@ -126,7 +126,7 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">0.2 V - 0.3 V</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">0.4 V - 0.5 V</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">0.6 V - 0.7 V 14</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">0.6 V - 0.7 V</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">0.8 V - 0.9 V</li>
 </ul>
 <hr>
@@ -134,13 +134,17 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">237500 - 262500</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">247000 - 273000</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">256500 - 283500 15</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">256500 - 283500</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">224000 - 336000</li>
 </ul>
+<details>
+  <summary>Show Resistance Calculator</summary>
+<iframe src="https://ohmlaws.github.io/resistor/" width="100%" height="700" frameborder="0" allowfullscreen></iframe>
+</details>
 <hr>
 <h3 id="q16">Q16: What is the reason for barrier voltage is more in silicon material?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Lower atomic number 16</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Lower atomic number</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Resistance is very low</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Doping percentage is more</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Valance electrons are two only</li>
@@ -151,13 +155,13 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Minority carriers in two materials are neutralised</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Electron in N material is drifted to positive terminal</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Holes in P material attracted to negative terminal</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Electrons and holes are attracted towards supply terminals 17</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Electrons and holes are attracted towards supply terminals</li>
 </ul>
 <hr>
 <h3 id="q18">Q18: What is the output voltage in the full wave rectifier circuit?</h3>
 <img src="/assets/img/posts/theory/m7-q18.webp" alt="Full wave rectifier circuit">
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">No output 18</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">No output</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Rated output</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Half the rated output</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Double the rated output</li>
@@ -165,7 +169,7 @@ image:
 <hr>
 <h3 id="q19">Q19: Which filter circuit is capable of removing voltage spikes in the rectifier circuit?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">LC filter 19</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">LC filter</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">RC filter</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Capacitor input filter</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Series inductor filter</li>
@@ -176,20 +180,20 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">FET</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">UJT</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">SCR</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">IGBT 20</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">IGBT</li>
 </ul>
 <hr>
 <h3 id="q21">Q21: How the decimal number can be converted into binary number?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Divide decimal by 4</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Multiplying decimal by 4</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Dividing decimal by 2 21</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Dividing decimal by 2</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Multiplying decimal 2</li>
 </ul>
 <hr>
 <h3 id="q22">Q22: What is the purpose of using binary coded decimal (BCD) system in digital circuits?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Storing the data inputs 22</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Storing the data inputs</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Control the binary system</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Interface to binary system</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Segregating the input parameters</li>
@@ -200,13 +204,13 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">OR gate</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">NOT gate</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">AND gate 23</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">AND gate</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">NOR gate</li>
 </ul>
 <hr>
 <h3 id="q24">Q24: Which quantity can be measured by CRO?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Frequency 24</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Frequency</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Inductance</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Resistance</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Power factor</li>
@@ -217,7 +221,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Oscillators</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Multi vibrators</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Speed control of motors 25</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Speed control of motors</li>
 </ul>
 <hr>
 <h3 id="q26">Q26: What is the function of R1 variable resistor?</h3>
@@ -226,13 +230,13 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Controls the current in R1</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Protects from overload to TRIAC</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Protects the RFI filter from overloading</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Controls the pulse rate for triggering the TRIAC 26</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Controls the pulse rate for triggering the TRIAC</li>
 </ul>
 <hr>
 <h3 id="q27">Q27: What is the purpose of connecting L1 through C1 to the transistor base?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Provides DC supply</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Provides positive feedback 27</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Provides positive feedback</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Provides negative feedback</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Provides transistor biasing voltage</li>
 </ul>
@@ -240,14 +244,14 @@ image:
 <h3 id="q28">Q28: What is the criteria to decide a material as conductor, semi conductor and insulator?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Atomic bonding structure of atom</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Existence of valance electrons in atom 28</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Existence of valance electrons in atom</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Atomic weight of the atom of the material</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Atomic number of the atom of the material</li>
 </ul>
 <hr>
 <h3 id="q29">Q29: Which doping material is used to make P-type semi conductor?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Boron 29</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Boron</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Arsenic</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Antimony</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Phosphorous</li>
@@ -257,14 +261,14 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Base ground, emitter and collector positive</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Base negative, emitter positive and collector negative</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Base positive, emitter negative and collector positive 30</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Base positive, emitter negative and collector positive</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Base positive, emitter negative and collector negative</li>
 </ul>
 <hr>
 <h3 id="q31">Q31: What is the type of function in the transistor circuit?</h3>
 <img src="/assets/img/posts/theory/m7-q31.webp" alt="Transistor circuit function">
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Switching 31</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Switching</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Oscillation</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Modulation</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Amplification</li>
@@ -272,7 +276,7 @@ image:
 <hr>
 <h3 id="q32">Q32: Why negative feedback is required in amplifier circuits?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">To reduce the distortion 32</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">To reduce the distortion</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To increase the amplification factor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To increase the output voltage gain</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To increase the output current gain</li>
@@ -281,7 +285,7 @@ image:
 <h3 id="q33">Q33: What is the purpose of DIAC in power control circuits?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">As rectifier</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">For triggering 33</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">For triggering</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">As an oscillator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">For amplification</li>
 </ul>
@@ -291,13 +295,13 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">FET</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">UJT</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">DIAC</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">TRIAC 34</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">TRIAC</li>
 </ul>
 <hr>
 <h3 id="q35">Q35: Which quadrant operation of SCR delivers heavy current in reverse biasing?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">First quadrant</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Third quadrant 35</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Third quadrant</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Fourth quadrant</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Second quadrant</li>
 </ul>
@@ -307,13 +311,13 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">AND</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">NOT</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">NOR 36</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">NOR</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">NAND</li>
 </ul>
 <hr>
 <h3 id="q37">Q37: What is the use of timebase control switch or knob in the CRO?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Select sweep speed 37</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Select sweep speed</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Select input voltage range</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Select input signal voltage</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Select intensity of the beam</li>
@@ -321,7 +325,7 @@ image:
 <hr>
 <h3 id="q38">Q38: Why a snubber circuit is used in the TRIAC motor control circuit?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">To avoid false triggering 38</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">To avoid false triggering</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To increase the life of TRIAC</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To increase the motor torque</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To maintain the motor speed constant</li>
@@ -332,12 +336,33 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">24 Volt</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">12 Volt</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">9.6 Volt</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">10.8 Volt 39</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">10.8 Volt</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+$V_{dc} = \frac{V_{max}}{\pi}$
+
+Input AC Voltage ($V_{rms}$) = $24 \text{ V}$
+
+  $V_{max} = V_{rms} \times \sqrt{2}$
+  
+  $V_{max} = 24 \times 1.414$
+  
+  $V_{max} = 33.936 \text{ V}$
+
+  $V_{dc} = \frac{33.936}{\pi}$
+  
+  $V_{dc} = \frac{33.936}{3.1416}$
+  
+  $V_{dc} \approx 10.8 \text{ V}$
+
+**Short Method:**
+$$V_{dc} = 0.45 \times 24 = 10.8 \text{ V}$$
+</details>
 <hr>
 <h3 id="q40">Q40: Why most of semi conductor devices are made by silicon compared to germanium?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">High barrier voltage 40</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">High barrier voltage</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">High resistance range</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">High thermal conductivity</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">High current carrying capacity</li>
@@ -345,7 +370,7 @@ image:
 <hr>
 <h3 id="q41">Q41: What is the output voltage if the centre tap of transformer is open circuited in a full wave rectifier circuit?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Zero voltage 41</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Zero voltage</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Full rated output</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Half of the rated output</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">One fourth of rated output</li>
@@ -355,13 +380,13 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Hartley oscillator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Colpitts oscillator</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Quartz crystal oscillator 42</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Quartz crystal oscillator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">R.C phase shift oscillator</li>
 </ul>
 <hr>
 <h3 id="q43">Q43: What is the characteristic property of base material in a transistor?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Lightly doped and very thin 43</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Lightly doped and very thin</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Heavily doped and very thin</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Lightly doped and very larger</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Heavily doped and very larger</li>
@@ -373,7 +398,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Push Pull Amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Common Base Amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Emitter Follower Amplifier</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Common Emitter Amplifier 44</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Common Emitter Amplifier</li>
 </ul>
 <hr>
 <h3 id="q45">Q45: Which resistor determines the voltage gain in a common emitter amplifier?</h3>
@@ -381,13 +406,13 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">$R_1$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$R_2$</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">$R_L$ 45</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">$R_L$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$R_e$</li>
 </ul>
 <hr>
 <h3 id="q46">Q46: Which multi vibrator produces a repetitive pulse wave form output?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Astable multi vibrator 46</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Astable multi vibrator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Bistable multi vibrator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">One shot multi vibrator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Monostable multi vibrator</li>
@@ -397,13 +422,13 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">To cancel noise distortion</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To phase shift the signal by 60°</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">To phase shift the signal by 180° 47</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">To phase shift the signal by 180°</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To cancel second harmonic distortion</li>
 </ul>
 <hr>
 <h3 id="q48">Q48: What is the main application of a Field Effect Transistor (FET)?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Voltage control device 48</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Voltage control device</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Current control device</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Positive feedback device</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Low input impedance device</li>
@@ -411,7 +436,7 @@ image:
 <hr>
 <h3 id="q49">Q49: What is the main function of Uni Junction Transistor (UJT)?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Relaxation oscillator 49</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Relaxation oscillator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Broadcast transmitter</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Loud speaker amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Microphone input device</li>
@@ -422,14 +447,14 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Gates are reverse biased</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Gates are forward biased</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Gates are forward biased with drain</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Gates are reverse biased with source 50</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Gates are reverse biased with source</li>
 </ul>
 <hr>
 <h3 id="q51">Q51: What is the total turn-on time ($t_{on}$) while transistor makes a transition from $V_2$ to $V_1$?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">$t_{on} = t_r - t_d$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$t_{on} = t_r \times t_d$</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">$t_{on} = t_d + t_r$ 51</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">$t_{on} = t_d + t_r$</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">$t_{on} = t_d / t_r$</li>
 </ul>
 <hr>
@@ -438,12 +463,12 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Inductor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Resistor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Capacitor</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Transistor 52</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Transistor</li>
 </ul>
 <hr>
 <h3 id="q53">Q53: Why the collector region is physically made larger than emitter region in a transistor?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">It has to dissipate more heat 53</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">It has to dissipate more heat</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Output taken from collector terminal</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Base collector region is reverse biased</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Collector region always operate with high voltage</li>
@@ -454,12 +479,12 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Acts as an amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Acts as an oscillator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Acts as an open circuit</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Acts as a closed switch 54</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Acts as a closed switch</li>
 </ul>
 <hr>
 <h3 id="q55">Q55: What is the main advantage of a class A amplifier?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Minimum distortion 55</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Minimum distortion</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Maximum current gain</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Maximum voltage gain</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Minimum signal to noise ratio losses</li>
@@ -469,7 +494,7 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Detector</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Amplifier</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Oscillator 56</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Oscillator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Modulator</li>
 </ul>
 <hr>
@@ -478,7 +503,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Rectifier with filter</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Voltage multiplier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Negative feed back</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Positive feed back 57</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Positive feed back</li>
 </ul>
 <hr>
 <h3 id="q58">Q58: What is the main application of uni junction transistor?</h3>
@@ -486,20 +511,20 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Rectification</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Amplification</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Regulator circuits</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Triggering circuits 58</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Triggering circuits</li>
 </ul>
 <hr>
 <h3 id="q59">Q59: Which device has very high input impedance, low noise output, good linearity and low inter electrode capacity?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">NPN transistor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">PNP transistor</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Field effect transistor 59</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Field effect transistor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Uni junction transistor</li>
 </ul>
 <hr>
 <h3 id="q60">Q60: What is the difference in current control of MOSFET compared to JFETs?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Insulating layer instead of junction 60</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Insulating layer instead of junction</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Using N material instead of P material</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Using P material instead of N material</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Using N material gate instead of P material</li>
@@ -511,20 +536,20 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Common base amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Common emitter amplifier</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Class B push pull amplifier</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Common collector amplifier 61</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Common collector amplifier</li>
 </ul>
 <hr>
 <h3 id="q62">Q62: What is the peak voltage of 220V rms AC voltage?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">310.02 V</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">311.17 V 62</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">311.17 V</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">312.25 V</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">315.20 V</li>
 </ul>
 <hr>
 <h3 id="q63">Q63: How the input impedance of CRO can be increased?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">By adding resistance to CRO probe 63</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">By adding resistance to CRO probe</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">By adding resistance to trigger level circuit</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">By increasing time/base attenuator switch position</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">By increasing volts/cm attenuator switch position</li>
@@ -535,21 +560,41 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">1.0 KHz</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">10.0 KHz</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">100.0 KHz</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">1000.0 KHz 64</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">1000.0 KHz</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+$T = \text{Number of divisions} \times \text{Time base setting}$
+
+$F = \frac{1}{T}$
+* Number of divisions = $5$
+* Time base setting = $0.2 \text{ } \mu\text{s/div}$ (microseconds)
+
+  $T = 5 \times 0.2 \text{ } \mu\text{s}$
+  
+  $T = 1.0 \text{ } \mu\text{s}$
+  
+  $T = 1.0 \times 10^{-6} \text{ seconds}$
+
+  $F = \frac{1}{1.0 \times 10^{-6}}$
+  
+  $F = 1,000,000 \text{ Hz}$
+  
+  $F = 1000 \text{ kHz}$
+</details>
 <hr>
 <h3 id="q65">Q65: What defect will occur in the radio, if the pulsations are not removed from the input of the rectifier?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Improper tuning</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">No response</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Humming sound 65</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Humming sound</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Works with low volume</li>
 </ul>
 <hr>
 <h3 id="q66">Q66: How does the depletion region behave?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">As resistor</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">As insulator 66</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">As insulator</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">As conductor</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">As semi conductor</li>
 </ul>
@@ -559,26 +604,44 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">1.5</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">166</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">0.66</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">6600 67</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">6600</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+The Power Gain ($A_p$) of a Common Emitter (CE) amplifier is the product of its Voltage Gain ($A_v$) and Current Gain ($A_i$). For a CE configuration, the current gain is approximately equal to the transistor's Beta ($\beta$).
+
+$A_p = A_v \times A_i$
+
+$A_p \approx A_v \times \beta$
+
+* Voltage Gain ($A_v$) = $66$
+* Transistor Beta ($\beta$) = $100$
+  
+$A_p = 66 \times 100$
+
+$A_p = 6600$
+</details>
 <hr>
 <h3 id="q68">Q68: What is the effect, if SCR is latched into conduction and gate current is removed in DC?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">SCR gets cut off</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Current through SCR OFF</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Output voltage will be reduced</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Gate looses control over conduction 68</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Gate looses control over conduction</li>
 </ul>
 <hr>
 <h3 id="q69">Q69: What is the effect of pinch-off voltage in JFET?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">No depletion region exists</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Drain current becomes zero 69</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Drain current becomes zero</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Reverse bias voltage becomes zero</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Width of channel has maximum value</li>
 </ul>
 
-
+<div class="text-center text-muted mt-3">
+  Found a mistake or mismatch in the question or answer? 
+  <a href="mailto:roniui.github.io@gmail.com?subject=Mistake or mismatch&body=Paste the post link here:%0D%0A%0D%0AQuestion number:%0D%0A%0D%0ADescribe what is wrong:">Let us know via email</a>.
+</div>
 
 
 <script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
