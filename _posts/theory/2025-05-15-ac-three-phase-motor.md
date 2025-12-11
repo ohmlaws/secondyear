@@ -67,7 +67,8 @@ image:
 </ul>
 <details>
   <summary>Show Calculation</summary>
-$P = 10 \text{ HP} \times 746 \text{ Watts/HP}$
+$P = 10 \times 746 \text{ Watts}$
+  
 $P = 7460 \text{ Watts}$
 
 Assuming standard values for a 3-phase system:
@@ -83,7 +84,6 @@ $I_{FL} = \frac{7460}{488.7}$
 
 $I_{FL} \approx 15.26 \text{ Amps}$
 
-**3. Calculate Fuse Rating:**
 To handle the starting current (which is higher than full load current), the fuse rating is typically calculated as **1.5 times** the full load current.
 
 $\text{Fuse Rating} = I_{FL} \times 1.5$
@@ -327,7 +327,9 @@ $N_s = \frac{120 \times f}{P}$
 
 **Calculation:**
 $N_s = \frac{120 \times 50}{6}$
+
 $N_s = \frac{6000}{6}$
+
 $N_s = 1000 \text{ rpm}$
 
 **Formula:**
