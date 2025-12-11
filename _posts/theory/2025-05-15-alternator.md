@@ -80,6 +80,24 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">3000 rpm</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">6000 rpm</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+**Formula:**
+$N_s = \frac{120 \times f}{P}$
+
+Where:
+$N_s$ = Synchronous speed in Revolutions Per Minute (RPM)
+
+$f$ = Frequency in Hertz (Hz) = 50 Hz
+
+$P$ = Number of poles = 2
+
+$N_s = \frac{120 \times 50}{2}$
+
+$N_s = \frac{6000}{2}$
+
+$N_s = 3000$
+</details>
 <hr>
 <h3 id="q9">Q9: What condition the lamps become dark in dark lamp method of parallel operation of two alternators?</h3>
 <ul>
@@ -136,6 +154,24 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">3000 rpm</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">4500 rpm</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+**Formula:**
+$N_s = \frac{120 \times f}{P}$
+
+Where:
+$N_s$ = Synchronous speed in Revolutions Per Minute (RPM)
+
+$f$ = Frequency in Hertz (Hz) = 50 Hz
+
+$P$ = Number of poles = 4
+
+$N_s = \frac{120 \times 50}{4}$
+
+$N_s = \frac{6000}{4}$
+
+$N_s = 1500$
+</details>
 <hr>
 <h3 id="q16">Q16: What condition the two lamps become bright and one lamp dark during paralleling of two alternators?</h3>
 <ul>
@@ -177,6 +213,16 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">1500 rps</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">3000 rps</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+Number of poles ($P$) = $2$
+Frequency ($f$) = $50 \text{ Hz}$
+
+**Formula:**
+$\text{Speed (r.p.s)} = \frac{2 \times f}{P}$
+
+$\text{Speed (r.p.s)} = \frac{2 \times 50}{2} = \frac{100}{2} = 50 \text{ r.p.s}$
+</details>
 <hr>
 <h3 id="q21">Q21: What is the advantage of using rotating field type alternator?</h3>
 <ul>
@@ -201,6 +247,19 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">0.978</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">0.985</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+$K_p = \cos\left(\frac{\alpha}{2}\right)$
+
+Where:
+* $\alpha$ = Short pitch angle in electrical degrees (given as $30^\circ$)
+
+$K_p = \cos\left(\frac{30^\circ}{2}\right)$
+
+$K_p = \cos(15^\circ)$
+
+$K_p = 0.9659$
+</details>
 <hr>
 <h3 id="q24">Q24: What is the cause for hunting effect in alternators?</h3>
 <ul>
@@ -217,9 +276,20 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">37.5%</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">38.5%</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+$\%VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100$
+$\%VR = \frac{660 - 480}{480} \times 100$
+  $\%VR = \frac{180}{480} \times 100$  
+  $\%VR = 0.375 \times 100$
+$\%VR = 37.5\%$
+</details>
 <hr>
 
-
+<div class="text-center text-muted mt-3">
+  Found a mistake or mismatch in the question or answer? 
+  <a href="mailto:roniui.github.io@gmail.com?subject=Mistake or mismatch&body=Paste the post link here:%0D%0A%0D%0AQuestion number:%0D%0A%0D%0ADescribe what is wrong:">Let us know via email</a>.
+</div>
 
 <script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
 
