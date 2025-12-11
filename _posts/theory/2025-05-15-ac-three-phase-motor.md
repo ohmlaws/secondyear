@@ -65,6 +65,36 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">25 A</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">30 A</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+$P = 10 \text{ HP} \times 746 \text{ Watts/HP}$
+$P = 7460 \text{ Watts}$
+
+Assuming standard values for a 3-phase system:
+* Voltage ($V$) = $415 \text{ V}$
+* Power Factor ($\cos\phi$) $\approx 0.8$
+* Efficiency ($\eta$) $\approx 0.85$
+
+$I_{FL} = \frac{P}{\sqrt{3} \times V \times \cos\phi \times \eta}$
+
+$I_{FL} = \frac{7460}{1.732 \times 415 \times 0.8 \times 0.85}$
+
+$I_{FL} = \frac{7460}{488.7}$
+
+$I_{FL} \approx 15.26 \text{ Amps}$
+
+**3. Calculate Fuse Rating:**
+To handle the starting current (which is higher than full load current), the fuse rating is typically calculated as **1.5 times** the full load current.
+
+$\text{Fuse Rating} = I_{FL} \times 1.5$
+
+$\text{Fuse Rating} = 15.26 \times 1.5$
+
+$\text{Fuse Rating} \approx 22.89 \text{ Amps}$
+
+The nearest standard fuse rating available above 22.89 A is **25 A**.
+
+</details>
 <hr>
 <h3 id="q7">Q7: What is the name of the contact marked as 'X'?</h3>
 <img src="/assets/img/posts/theory/m3-q7.webp" alt="contact marked X">
@@ -169,6 +199,19 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">1080°</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">1440°</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+The total electrical degrees in a motor is calculated as:
+
+Total Electrical Degrees = $180^\circ \times \text{Number of Poles}$
+
+* Number of poles ($P$) = $6$
+
+$\text{Total Electrical Degrees} = 180^\circ \times 6$
+
+$\text{Total Electrical Degrees} = 1080^\circ$
+
+</details>
 <hr>
 <h3 id="q19">Q19: Calculate the number of coils per phase per pair of poles of 3 phase motor having 2 pole, 24 slots, 12 coils?</h3>
 <ul>
@@ -177,6 +220,28 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">3</li>
 <li onclick="checkAnswer(this, true)" data-correct="true">4</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+
+$N_{cpp} = \frac{\text{Total Number of Coils}}{\text{Number of Phases} \times \text{Number of Pole Pairs}}$
+
+**Given:**
+* Total Number of Coils = $12$
+* Number of Phases = $3$
+* Number of Poles ($P$) = $2$
+
+A pair consists of 2 poles (North and South).
+$\text{Pole Pairs} = \frac{P}{2} = \frac{2}{2} = 1$
+
+Substitute the values into the main formula:
+
+$N_{cpp} = \frac{12}{3 \times 1}$
+
+$N_{cpp} = \frac{12}{3}$
+
+$N_{cpp} = 4$
+
+</details>
 <hr>
 <h3 id="q20">Q20: What is the name of the starter symbol?</h3>
 <img src="/assets/img/posts/theory/m3-q20.webp" alt="starter symbol diagram">
@@ -218,6 +283,30 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">1200 rpm</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">1440 rpm</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+
+The synchronous speed ($N_s$) of an AC induction motor is calculated as:
+
+$N_s = \frac{120 \times f}{P}$
+
+Where:
+* $f$ = Frequency in Hertz
+* $P$ = Number of poles
+
+**Given:**
+* Frequency ($f$) = $50 \text{ Hz}$
+* Number of poles ($P$) = $6$
+
+**Calculation:**
+
+$N_s = \frac{120 \times 50}{6}$
+
+$N_s = \frac{6000}{6}$
+
+$N_s = 1000 \text{ rpm}$
+
+</details>
 <hr>
 <h3 id="q25">Q25: Calculate the percentage slip in a 3 phase induction motor having 6 poles with a frequency of 50 Hertz rotating with actual speed of 960 rpm?</h3>
 <ul>
@@ -226,6 +315,34 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">4%</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">5%</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+
+**Formula:**
+$N_s = \frac{120 \times f}{P}$
+
+**Given:**
+* Frequency ($f$) = $50 \text{ Hz}$
+* Poles ($P$) = $6$
+
+**Calculation:**
+$N_s = \frac{120 \times 50}{6}$
+$N_s = \frac{6000}{6}$
+$N_s = 1000 \text{ rpm}$
+
+**Formula:**
+
+ $\text{ Slip} = \frac{N_s - N_r}{N_s} \times 100$
+
+$\text{ Slip} = \frac{1000 - 960}{1000} \times 100$
+
+$\text{ Slip} = \frac{40}{1000} \times 100$
+
+$\text{ Slip} = 0.04 \times 100$
+
+$\text{ Slip} = 4\$%
+
+</details>
 <hr>
 <h3 id="q26">Q26: What is the rotor frequency of a 3 phase squirrel cage induction motor at the time of starting?</h3>
 <ul>
@@ -476,6 +593,27 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">9 coils/phase/pole</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">12 coils/phase/pole</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+
+**Formula:**
+
+$\text{Coils per Phase per Pole} =$ $\frac{\text{Total Number of Coils}}{\text{Number of Phases} \times \text{Number of Poles}}$
+
+**Given:**
+* Total Number of Coils = $36$
+* Number of Phases = $3$
+* Number of Poles = $4$
+
+**Calculation:**
+
+$\text{Coils per Phase per Pole} = \frac{36}{3 \times 4}$
+
+$\text{Coils per Phase per Pole} = \frac{36}{12}$
+
+$\text{Coils per Phase per Pole} = 3$
+
+</details>
 <hr>
 <h3 id="q57">Q57: What is the type of rewinding process?</h3>
 <img src="/assets/img/posts/theory/m3-q57.webp" alt="rewinding process type">
@@ -541,6 +679,31 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">33.05 Nm</li>
 <li onclick="checkAnswer(this, true)" data-correct="true">36.6 Nm</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+
+  $1 \text{ HP} = 735.5 \text{ Watts}$
+
+$P = 7.5 \times 735.5$
+
+$P = 5516.25 \text{ Watts}$
+
+$T = \frac{P \times 60}{2 \pi N}$
+
+Where:
+* $P$ = Power in Watts
+* $N$ = Speed in RPM
+* $T$ = Torque in Newton Metres ($Nm$)
+
+$T = \frac{5516.25 \times 60}{2 \times 3.14159 \times 1440}$
+
+$T = \frac{330975}{9047.78}$
+
+$T \approx 36.58 \text{ Nm}$
+
+(Rounding to one decimal place typically gives 36.6 Nm).
+
+</details>
 <hr>
 <h3 id="q65">Q65: Which type of handle design of rotary switch is illustrated?</h3>
 <img src="/assets/img/posts/theory/m3-q65.webp" alt="rotary switch handle design">
@@ -608,6 +771,32 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">6 slots</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">8 slots</li>
 </ul>
+<details>
+  <summary>Show Calculation</summary>
+
+$\theta_{total} = 180^\circ \times \text{Number of Poles}$
+
+$\theta_{total} = 180^\circ \times 4$
+
+$\theta_{total} = 720^\circ$
+
+
+$\theta_{slot} = \frac{\text{Total Electrical Degrees}}{\text{Number of Slots}}$
+
+$\theta_{slot} = \frac{720^\circ}{36}$
+
+$\theta_{slot} = 20^\circ \text{ per slot}$
+
+
+For a 3-phase system, the displacement is always $120^\circ$ electrical.
+
+$\text{Phase Displacement (slots)} = \frac{120^\circ}{\theta_{slot}}$
+
+$\text{Phase Displacement (slots)} = \frac{120^\circ}{20^\circ}$
+
+$\text{Phase Displacement (slots)} = 6 \text{ slots}$
+
+</details>
 <hr>
 <h3 id="q73">Q73: Which type of AC motor winding having the number of coil/pole/phase is more than one arranged in different slots?</h3>
 <ul>
@@ -732,6 +921,10 @@ image:
 <hr>
 
 
+<div class="text-center text-muted mt-3">
+  Found a mistake or mismatch in the question or answer? 
+  <a href="mailto:roniui.github.io@gmail.com?subject=Mistake or mismatch&body=Paste the post link here:%0D%0A%0D%0AQuestion number:%0D%0A%0D%0ADescribe what is wrong:">Let us know via email</a>.
+</div>
 
 <script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
 
