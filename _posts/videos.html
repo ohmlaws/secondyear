@@ -1,10 +1,10 @@
 ---
 title: Video Gallery
+description: Some videos for clear concept
 date: 2025-12-27 21:05:00 +0530
 categories: [videos]
 tags: [Theory, ITI]
 author: Roni
-permalink: /videos/
 ---
 
 <style>
@@ -50,7 +50,8 @@ permalink: /videos/
     }
 </style>
 
-<div class="video-grid">    
+<div class="video-grid">
+    
     <div class="video-card">
         <div class="video-wrapper">
             <video id="vid1" controls playsinline preload="metadata" controlsList="nodownload" oncontextmenu="return false;">
@@ -59,6 +60,7 @@ permalink: /videos/
         </div>
         <div class="video-title">p-n Junction Diode (Part 1) __ Depletion Region _ Barrier Potential</div>
     </div>
+
     <div class="video-card">
         <div class="video-wrapper">
             <video id="vid2" controls playsinline preload="metadata" controlsList="nodownload" oncontextmenu="return false;">
@@ -67,6 +69,7 @@ permalink: /videos/
         </div>
         <div class="video-title">p-n Junction Diode (Part 2) __ Forward Bias _ Reverse Bias</div>
     </div>
+
     <div class="video-card">
         <div class="video-wrapper">
             <video id="vid3" controls playsinline preload="metadata" controlsList="nodownload" oncontextmenu="return false;">
@@ -75,6 +78,7 @@ permalink: /videos/
         </div>
         <div class="video-title">TRANSISTOR - Part 1 _ Construction and Working _ Bipolar Junction Transistor (BJT)</div>
     </div>
+
     <div class="video-card">
         <div class="video-wrapper">
             <video id="vid4" controls playsinline preload="metadata" controlsList="nodownload" oncontextmenu="return false;">
@@ -83,6 +87,7 @@ permalink: /videos/
         </div>
         <div class="video-title">TRANSISTOR - Part 2 __ Transistor Current and Parameters</div>
     </div>
+
     <div class="video-card">
         <div class="video-wrapper">
             <video id="vid5" controls playsinline preload="metadata" controlsList="nodownload" oncontextmenu="return false;">
@@ -95,18 +100,25 @@ permalink: /videos/
 
 <script>
    document.addEventListener('DOMContentLoaded', function() {
-        var videos = document.querySelectorAll('video');       
-        videos.forEach(function(video) {               
-            const setThumbnail = () => {  
+        var videos = document.querySelectorAll('video');
+        
+        videos.forEach(function(video) {
+            
+                    
+            const setThumbnail = () => {
+                
                 if (video.currentTime === 0) {
                     video.currentTime = 0.1;
                 }
             };
+
             if (video.readyState >= 1) {
                 setThumbnail();
             } else {
                 video.addEventListener('loadedmetadata', setThumbnail);
-            }                     
+            }    
+
+                      
             video.addEventListener('play', function() {
                 videos.forEach(function(otherVideo) {
                     if (otherVideo !== video) {
