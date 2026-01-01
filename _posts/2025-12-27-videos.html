@@ -56,26 +56,12 @@ image:
     position: relative;
     display: block;
     width: 100%;
-    padding-bottom: 56.25%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     height: 0;
     overflow: hidden;
     background-color: #000;
+    border-radius: 12px;
     cursor: pointer;
-}
-
-.video-facade img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-    transition: opacity 0.3s;
-}
-
-.video-facade:hover img {
-    opacity: 1;
 }
 
 .play-button {
@@ -111,10 +97,12 @@ image:
         <div class="video-title">How synchronous motors work (Hindi)</div>
     </div>
 
-   <div class="video-card">
-    <a href="https://www.youtube.com/watch?v=vodf0G0sYhM" target="_blank" class="video-facade"><img src="https://img.youtube.com/vi/vodf0G0sYhM/sddefault.jpg" alt="Watch on YouTube"><div class="play-button"></div></a>
+  <div class="video-card">
+    <a href="https://www.youtube.com/watch?v=vodf0G0sYhM" target="_blank" class="video-facade" style="background-image: url('https://img.youtube.com/vi/vodf0G0sYhM/sddefault.jpg'); background-size: cover; background-position: center;">
+        <div class="play-button"></div>
+    </a>
     <div class="video-title">Reluctance Motor Working and Principle In hindi</div>
-   </div>
+  </div>
   
   <div class="video-card">
         <div class="video-wrapper">
@@ -123,10 +111,12 @@ image:
         <div class="video-title">Electric generator (A.C. & D.C.) (Hindi) | Magnetic effects of current</div>
   </div>
 
-   <div class="video-card">
-    <a href="https://www.youtube.com/watch?v=rLXyNxF36_U" target="_blank" class="video-facade"><img src="https://img.youtube.com/vi/rLXyNxF36_U/maxresdefault.jpg" alt="Watch on YouTube"><div class="play-button"></div></a>
+ <div class="video-card">
+    <a href="https://www.youtube.com/watch?v=rLXyNxF36_U" target="_blank" class="video-facade" style="background-image: url('https://img.youtube.com/vi/rLXyNxF36_U/maxresdefault.jpg'); background-size: cover; background-position: center;">
+        <div class="play-button"></div>
+    </a>
     <div class="video-title">DC motor working principle (Hindi)</div>
-   </div>
+ </div>
   
   <div class="video-card">
         <div class="video-wrapper">
