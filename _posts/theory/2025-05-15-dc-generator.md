@@ -443,7 +443,7 @@ image:
 The generated EMF ($E_g$) in a DC generator is calculated using the formula:
 $$E_g = \frac{\phi Z N P}{60 A}$$
 
-For a **Wave Wound** armature, the number of parallel paths ($A$) is always equal to 2, regardless of the number of poles.
+For a Wave Wound armature, the number of parallel paths ($A$) is always equal to 2, regardless of the number of poles.
 
 $$E_g = \frac{0.007 \times 1020 \times 1500 \times 4}{60 \times 2}$$
 
@@ -480,11 +480,15 @@ $$E_g = 357 \text{ Volts}$$
 **Formula:**
 $$E_g = \frac{\phi Z N P}{60 A}$$
 
-* $\phi = 0.064 \text{ Wb}$
-* $Z = 600$
-* $N = 1000 \text{ rpm}$
-* $P = 4$
-* $A = 4$ (For Lap winding, $A = P$)
+$\phi = 0.064 \text{ Wb}$
+
+$Z = 600$
+
+$N = 1000 \text{ rpm}$
+
+$P = 4$
+
+$A = 4$ (For Lap winding, $A = P$)
  
 $$E_g = \frac{0.064 \times 600 \times 1000 \times 4}{60 \times 4}$$
 
