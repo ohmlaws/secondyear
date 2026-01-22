@@ -327,7 +327,7 @@ image:
 <li onclick="checkAnswer(this, true)" data-correct="true">Smooth reversal of current direction</li>
 </ul>
 <hr>
-<h3 id="q39">Q39: Why solid pole shoes are used in D.C generator?</h3>
+<h3 id="q39">Q39: Why solid pole core are used in D.C generator?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">To reduce the copper loss</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">To increase the residual magnetism</li>
