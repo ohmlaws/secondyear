@@ -1,16 +1,8 @@
----
-name: Content Correction
-about: Report a spelling mistake or incorrect question/answer on the site.
-title: ''
-labels: Content Correction
-assignees: ''
-
----
-
 name: Content Correction
 description: Report a spelling mistake or incorrect question/answer on the site.
-title: "Content Error: [Brief Description]"
-labels: ["content-error", "triage"]
+title: "Content Correction:"
+labels:
+  - Content Correction
 body:
   - type: markdown
     attributes:
