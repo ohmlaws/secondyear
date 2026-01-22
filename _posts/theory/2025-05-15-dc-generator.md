@@ -439,6 +439,7 @@ image:
 * Speed ($N$) = $1500 \text{ rpm}$
 * Flux per pole ($\phi$) = $0.007 \text{ Wb}$
 * Winding type = Simplex Wave Wound
+  
 The generated EMF ($E_g$) in a DC generator is calculated using the formula:
 $$E_g = \frac{\phi Z N P}{60 A}$$
 
