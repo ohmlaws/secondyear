@@ -433,16 +433,13 @@ image:
 </ul>
 <details>
   <summary>Show Calculation</summary>
-Number of poles ($P$) = $4$
   
-Number of conductors ($Z$) = $1020$
-
-Speed ($N$) = $1500 \text{ rpm}$
-
-Flux per pole ($\phi$) = $0.007 \text{ Wb}$
-
-Winding type = Simplex Wave Wound
-
+* Number of poles ($P$) = $4$
+* Number of conductors ($Z$) = $1020$
+* Speed ($N$) = $1500 \text{ rpm}$
+* Flux per pole ($\phi$) = $0.007 \text{ Wb}$
+* Winding type = Simplex Wave Wound
+  
 The generated EMF ($E_g$) in a DC generator is calculated using the formula:
 $$E_g = \frac{\phi Z N P}{60 A}$$
 
@@ -451,6 +448,7 @@ For a Wave Wound armature, the number of parallel paths ($A$) is always equal to
 $$E_g = \frac{0.007 \times 1020 \times 1500 \times 4}{60 \times 2}$$
 
 $$E_g = 357 \text{ Volts}$$
+
 </details>
 <hr>
 <h3 id="q52">Q52: How the effect of armature reaction can be neutralized in large DC generators?</h3>
@@ -478,7 +476,8 @@ $$E_g = 357 \text{ Volts}$$
 </ul>
 <details>
   <summary>Show Calculation</summary>
-Formula:
+  
+**Formula:**
 $$E_g = \frac{\phi Z N P}{60 A}$$
 
 $\phi = 0.064 \text{ Wb}$
@@ -494,6 +493,7 @@ $A = 4$ (For Lap winding, $A = P$)
 $$E_g = \frac{0.064 \times 600 \times 1000 \times 4}{60 \times 4}$$
 
 $$E_g = 640 \text{ V}$$
+
 </details>
 <hr>
 <h3 id="q55">Q55: What is the effect on induced emf if the main field flux get distorted in DC generator?</h3>
