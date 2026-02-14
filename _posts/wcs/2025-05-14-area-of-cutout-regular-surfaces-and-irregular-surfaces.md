@@ -264,7 +264,9 @@ image:
 </ul>
 <hr>
 
-<h3 id="q27">Q27: What is the area of the surface?</h3> <img src="/assets/img/posts/wcs/m2-q27.webp" alt="area of surface"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+<h3 id="q27">Q27: What is the area of the surface?</h3> <img src="/assets/img/posts/wcs/m2-q27.webp" alt="area of surface"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 1750 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 1775 mm²
@@ -273,8 +275,14 @@ image:
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 2600 mm²
 </li> </ul> <hr>
-<h3 id="q28">Q28: What is the name of the shaded portion?</h3> <img src="/assets/img/posts/wcs/m2-q28.webp" alt="shaded portion"> <ul> <li onclick="checkAnswer(this, true)" data-correct="true">Segment</li> <li onclick="checkAnswer(this, false)" data-correct="false">Sector</li> <li onclick="checkAnswer(this, false)" data-correct="false">Arc</li> <li onclick="checkAnswer(this, false)" data-correct="false">Chord</li> </ul> <hr>
- <h3 id="q29">Q29: Which line is called as chord?</h3> <img src="/assets/img/posts/wcs/m2-q29.webp" alt="chord"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">ED</li> <li onclick="checkAnswer(this, true)" data-correct="true">AB</li> <li onclick="checkAnswer(this, false)" data-correct="false">OD</li> <li onclick="checkAnswer(this, false)" data-correct="false">OE</li> </ul> <hr> 
+<h3 id="q28">Q28: What is the name of the shaded portion?</h3> <img src="/assets/img/posts/wcs/m2-q28.webp" alt="shaded portion"> 
+<ul> 
+  <li onclick="checkAnswer(this, true)" data-correct="true">Segment</li> <li onclick="checkAnswer(this, false)" data-correct="false">Sector</li> <li onclick="checkAnswer(this, false)" data-correct="false">Arc</li> <li onclick="checkAnswer(this, false)" data-correct="false">Chord</li> </ul> <hr>
+ <h3 id="q29">Q29: Which line is called as chord?</h3> <img src="/assets/img/posts/wcs/m2-q29.webp" alt="chord"> 
+ <ul> 
+   <li onclick="checkAnswer(this, false)" data-correct="false">ED</li> <li onclick="checkAnswer(this, true)" data-correct="true">AB</li> <li onclick="checkAnswer(this, false)" data-correct="false">OD</li> <li onclick="checkAnswer(this, false)" data-correct="false">OE</li> 
+ </ul> 
+ <hr> 
 <h3 id="q30">Q30: What is the area of the circle, whose diameter is 50 cm?</h3> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
 1900 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
@@ -366,10 +374,14 @@ image:
 75.06 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 86.93 cm²
-</li> </ul> <hr> 
+</li> 
+</ul> 
+<hr> 
 <h3 id="q41">Q41: What is the diameter of the circle, if the area of the circle is 
 706.5 cm²
-?</h3> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+?</h3> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 29 cm
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 29.5 cm
@@ -377,7 +389,9 @@ image:
 30 cm
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 30.5 cm
-</li> </ul> <hr> 
+</li> 
+</ul> 
+<hr> 
 <h3 id="q42">Q42: What is the diameter of the circle, if the circumference is 31.4 cm?</h3> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
 5 cm
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
@@ -386,7 +400,9 @@ image:
 8 cm
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 8.5 cm
-</li> </ul> <hr> 
+</li> 
+</ul> 
+<hr> 
 <h3 id="q43">Q43: What is the area of the lamina?</h3> <img src="/assets/img/posts/wcs/m2-q43.webp" alt="area of lamina"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
 1470.55 cm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
@@ -395,8 +411,12 @@ image:
 1472 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 1472.5 cm²
-</li> </ul> <hr> 
-<h3 id="q44">Q44: What is the area of the irregular lamina?</h3> <img src="/assets/img/posts/wcs/m2-q44.webp" alt="area of irregular lamina"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+</li> 
+</ul> 
+<hr> 
+<h3 id="q44">Q44: What is the area of the irregular lamina?</h3> <img src="/assets/img/posts/wcs/m2-q44.webp" alt="area of irregular lamina"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 550 cm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 549.76 cm²
@@ -404,7 +424,9 @@ image:
 560 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 555 cm²
-</li> </ul> <hr> 
+</li> 
+</ul> 
+<hr> 
 <h3 id="q45">Q45: What is the area of the lamina?</h3> <img src="/assets/img/posts/wcs/m2-q45.webp" alt="area of lamina"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
 125.5 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
@@ -413,8 +435,12 @@ image:
 127.5 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 126.5 cm²
-</li> </ul> <hr>
- <h3 id="q46">Q46: What is the area of irregular surfaces?</h3> <img src="/assets/img/posts/wcs/m2-q46.webp" alt="area of irregular surfaces"> <ul> <li onclick="checkAnswer(this, true)" data-correct="true">
+</li> 
+</ul> 
+<hr>
+ <h3 id="q46">Q46: What is the area of irregular surfaces?</h3> <img src="/assets/img/posts/wcs/m2-q46.webp" alt="area of irregular surfaces"> 
+ <ul> 
+   <li onclick="checkAnswer(this, true)" data-correct="true">
 27,475 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 27,500 mm²
@@ -422,7 +448,9 @@ image:
 27,350 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 26,500 mm²
-</li> </ul> <hr> 
+</li> 
+ </ul> 
+<hr> 
 <h3 id="q47">Q47: What is the area of shaded portion whose OD = 38 mm. ID = 32 mm?</h3> <img src="/assets/img/posts/wcs/m2-q47.webp" alt="area of shaded portion"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
 325.4 mm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
@@ -431,8 +459,12 @@ image:
 305.5 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 320.5 mm²
-</li> </ul> <hr> 
-<h3 id="q48">Q48: What is the area of irregular surfaces whose equilateral triangle size is 20 mm?</h3> <img src="/assets/img/posts/wcs/m2-q48.webp" alt="area of irregular surfaces"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+</li> 
+</ul> 
+<hr> 
+<h3 id="q48">Q48: What is the area of irregular surfaces whose equilateral triangle size is 20 mm?</h3> <img src="/assets/img/posts/wcs/m2-q48.webp" alt="area of irregular surfaces"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 3000 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 3080 mm²
@@ -440,8 +472,12 @@ image:
 3026.8 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 3060 mm²
-</li> </ul> <hr> 
-<h3 id="q49">Q49: What is the area of shaded portion. Whose square size 300mm?</h3> <img src="/assets/img/posts/wcs/m2-q49.webp" alt="area of shaded portion"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+</li> 
+</ul> 
+<hr> 
+<h3 id="q49">Q49: What is the area of shaded portion. Whose square size 300mm?</h3> <img src="/assets/img/posts/wcs/m2-q49.webp" alt="area of shaded portion"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 58,000 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 58,400 mm²
@@ -449,8 +485,12 @@ image:
 59,000 mm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 58,600 mm²
-</li> </ul> <hr> 
-<h3 id="q50">Q50: What is the area of shaded portion?</h3> <img src="/assets/img/posts/wcs/m2-q50.webp" alt="area of shaded portion"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+</li> 
+</ul> 
+<hr> 
+<h3 id="q50">Q50: What is the area of shaded portion?</h3> <img src="/assets/img/posts/wcs/m2-q50.webp" alt="area of shaded portion"> 
+<ul> 
+ <li onclick="checkAnswer(this, false)" data-correct="false">
 1000 mm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 1500 mm²
@@ -458,7 +498,9 @@ image:
 1100 mm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 1075 mm²
-</li> </ul> <hr>
+</li> 
+</ul> 
+<hr>
 
 <div class="text-center text-muted mt-3">
   Found a mistake or mismatch in the question or answer? 
