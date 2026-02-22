@@ -82,20 +82,20 @@ image:
 </ul>
 <details>
   <summary>Show Calculation</summary>
-**Formula:**
+\[\]**Formula:**
 $N_s = \frac{120 \times f}{P}$
-
+\[\]
 Where:
 $N_s$ = Synchronous speed in Revolutions Per Minute (RPM)
-
+\[\]
 $f$ = Frequency in Hertz (Hz) = 50 Hz
-
+\[\]
 $P$ = Number of poles = 2
-
+\[\]
 $N_s = \frac{120 \times 50}{2}$
-
+\[\]
 $N_s = \frac{6000}{2}$
-
+\[\]
 $N_s = 3000$
 </details>
 <hr>
@@ -156,20 +156,20 @@ $N_s = 3000$
 </ul>
 <details>
   <summary>Show Calculation</summary>
-**Formula:**
+\[\]**Formula:**
 $N_s = \frac{120 \times f}{P}$
-
+\[\]
 Where:
 $N_s$ = Synchronous speed in Revolutions Per Minute (RPM)
-
+\[\]
 $f$ = Frequency in Hertz (Hz) = 50 Hz
-
+\[\]
 $P$ = Number of poles = 4
-
+\[\]
 $N_s = \frac{120 \times 50}{4}$
-
+\[\]
 $N_s = \frac{6000}{4}$
-
+\[\]
 $N_s = 1500$
 </details>
 <hr>
@@ -215,12 +215,12 @@ $N_s = 1500$
 </ul>
 <details>
   <summary>Show Calculation</summary>
-Number of poles ($P$) = $2$
+\[\]Number of poles ($P$) = $2$\[\]
 Frequency ($f$) = $50 \text{ Hz}$
-
+\[\]
 **Formula:**
 $\text{Speed (r.p.s)} = \frac{2 \times f}{P}$
-
+\[\]
 $\text{Speed (r.p.s)} = \frac{2 \times 50}{2} = \frac{100}{2} = 50 \text{ r.p.s}$
 </details>
 <hr>
@@ -249,15 +249,15 @@ $\text{Speed (r.p.s)} = \frac{2 \times 50}{2} = \frac{100}{2} = 50 \text{ r.p.s}
 </ul>
 <details>
   <summary>Show Calculation</summary>
-$K_p = \cos\left(\frac{\alpha}{2}\right)$
-
+\[\]$K_p = \cos\left(\frac{\alpha}{2}\right)$
+\[\]
 Where:
 * $\alpha$ = Short pitch angle in electrical degrees (given as $30^\circ$)
-
+\[\]
 $K_p = \cos\left(\frac{30^\circ}{2}\right)$
-
+\[\]
 $K_p = \cos(15^\circ)$
-
+\[\]
 $K_p = 0.9659$
 </details>
 <hr>
@@ -278,10 +278,10 @@ $K_p = 0.9659$
 </ul>
 <details>
   <summary>Show Calculation</summary>
-$\%VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100$
-$\%VR = \frac{660 - 480}{480} \times 100$
-  $\%VR = \frac{180}{480} \times 100$  
-  $\%VR = 0.375 \times 100$
+\[\]$\%VR = \frac{V_{NL} - V_{FL}}{V_{FL}} \times 100$\[\]
+$\%VR = \frac{660 - 480}{480} \times 100$\[\]
+  $\%VR = \frac{180}{480} \times 100$  \[\]
+  $\%VR = 0.375 \times 100$\[\]
 $\%VR = 37.5\%$
 </details>
 <hr>
