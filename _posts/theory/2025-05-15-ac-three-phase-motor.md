@@ -311,13 +311,17 @@ Where:
   <summary>Show Calculation</summary>
 
 **Formula:**
+
 \[N_s = \frac{120 \times f}{P}\]
 
 **Given:**
+
 \[Frequency (f) = 50 \text{ Hz}\]
-* Poles (P) = 6\]
+
+\[Poles (P) = 6\]
 
 **Calculation:**
+
 \[N_s = \frac{120 \times 50}{6}\]
 
 \[N_s = \frac{6000}{6}\]
