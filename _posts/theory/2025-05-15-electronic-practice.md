@@ -340,24 +340,25 @@ image:
 </ul>
 <details>
   <summary>Show Calculation</summary>
-$V_{dc} = \frac{V_{max}}{\pi}$
+  
+\[V_{dc} = \frac{V_{max}}{\pi}\]
 
 Input AC Voltage ($V_{rms}$) = $24 \text{ V}$
 
-  $V_{max} = V_{rms} \times \sqrt{2}$
+  \[V_{max} = V_{rms} \times \sqrt{2}\]
   
-  $V_{max} = 24 \times 1.414$
+  \[V_{max} = 24 \times 1.414\]
   
-  $V_{max} = 33.936 \text{ V}$
+  \[V_{max} = 33.936 \text{ V}\]
 
-  $V_{dc} = \frac{33.936}{\pi}$
+  \[V_{dc} = \frac{33.936}{\pi}\]
   
-  $V_{dc} = \frac{33.936}{3.1416}$
+  \[V_{dc} = \frac{33.936}{3.1416}\]
   
-  $V_{dc} \approx 10.8 \text{ V}$
+  \[V_{dc} \approx 10.8 \text{ V}\]
 
 **Short Method:**
-$$V_{dc} = 0.45 \times 24 = 10.8 \text{ V}$$
+\[V_{dc} = 0.45 \times 24 = 10.8 \text{ V}\]
 </details>
 <hr>
 <h3 id="q40">Q40: Why most of semi conductor devices are made by silicon compared to germanium?</h3>
@@ -564,23 +565,23 @@ $$V_{dc} = 0.45 \times 24 = 10.8 \text{ V}$$
 </ul>
 <details>
   <summary>Show Calculation</summary>
-$T = \text{Number of divisions} \times \text{Time base setting}$
+\[T = \text{Number of divisions} \times \text{Time base setting}\]
 
-$F = \frac{1}{T}$
+\[F = \frac{1}{T}\]
 * Number of divisions = $5$
 * Time base setting = $0.2 \text{ } \mu\text{s/div}$ (microseconds)
 
-  $T = 5 \times 0.2 \text{ } \mu\text{s}$
+  \[T = 5 \times 0.2 \text{ } \mu\text{s}\]
   
-  $T = 1.0 \text{ } \mu\text{s}$
+  \[T = 1.0 \text{ } \mu\text{s}\]
   
-  $T = 1.0 \times 10^{-6} \text{ seconds}$
+  \[T = 1.0 \times 10^{-6} \text{ seconds}\]
 
-  $F = \frac{1}{1.0 \times 10^{-6}}$
+  \[F = \frac{1}{1.0 \times 10^{-6}}\]
   
-  $F = 1,000,000 \text{ Hz}$
+  \[F = 1,000,000 \text{ Hz}\]
   
-  $F = 1000 \text{ kHz}$
+  \[F = 1000 \text{ kHz}\]
 </details>
 <hr>
 <h3 id="q65">Q65: What defect will occur in the radio, if the pulsations are not removed from the input of the rectifier?</h3>
@@ -610,16 +611,16 @@ $F = \frac{1}{T}$
   <summary>Show Calculation</summary>
 The Power Gain ($A_p$) of a Common Emitter (CE) amplifier is the product of its Voltage Gain ($A_v$) and Current Gain ($A_i$). For a CE configuration, the current gain is approximately equal to the transistor's Beta ($\beta$).
 
-$A_p = A_v \times A_i$
+\[A_p = A_v \times A_i\]
 
-$A_p \approx A_v \times \beta$
+\[A_p \approx A_v \times \beta\]
 
 * Voltage Gain ($A_v$) = $66$
 * Transistor Beta ($\beta$) = $100$
   
-$A_p = 66 \times 100$
+\[A_p = 66 \times 100\]
 
-$A_p = 6600$
+\[A_p = 6600\]
 </details>
 <hr>
 <h3 id="q68">Q68: What is the effect, if SCR is latched into conduction and gate current is removed in DC?</h3>
