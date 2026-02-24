@@ -403,7 +403,9 @@ image:
 </li> 
 </ul> 
 <hr> 
-<h3 id="q43">Q43: What is the area of the lamina?</h3> <img src="/assets/img/posts/wcs/m2-q43.webp" alt="area of lamina"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+<h3 id="q43">Q43: What is the area of the lamina?</h3> <img src="/assets/img/posts/wcs/m2-q43.webp" alt="area of lamina"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 1470.55 cm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 1473.66 cm²
@@ -427,7 +429,9 @@ image:
 </li> 
 </ul> 
 <hr> 
-<h3 id="q45">Q45: What is the area of the lamina?</h3> <img src="/assets/img/posts/wcs/m2-q45.webp" alt="area of lamina"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+<h3 id="q45">Q45: What is the area of the lamina?</h3> <img src="/assets/img/posts/wcs/m2-q45.webp" alt="area of lamina"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 125.5 cm²
 </li> <li onclick="checkAnswer(this, false)" data-correct="false">
 120.5 cm²
@@ -451,7 +455,9 @@ image:
 </li> 
  </ul> 
 <hr> 
-<h3 id="q47">Q47: What is the area of shaded portion whose OD = 38 mm. ID = 32 mm?</h3> <img src="/assets/img/posts/wcs/m2-q47.webp" alt="area of shaded portion"> <ul> <li onclick="checkAnswer(this, false)" data-correct="false">
+<h3 id="q47">Q47: What is the area of shaded portion whose OD = 38 mm. ID = 32 mm?</h3> <img src="/assets/img/posts/wcs/m2-q47.webp" alt="area of shaded portion"> 
+<ul> 
+  <li onclick="checkAnswer(this, false)" data-correct="false">
 325.4 mm²
 </li> <li onclick="checkAnswer(this, true)" data-correct="true">
 329.7 mm²

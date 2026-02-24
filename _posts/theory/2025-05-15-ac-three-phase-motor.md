@@ -35,10 +35,10 @@ image:
 <hr>
 <h3 id="q3">Q3: Which formula is used to calculate the total electrical degree in stator of an A.C motor?</h3>
 <ul>
-<li onclick="checkAnswer(this, false)" data-correct="false">Total electrical degree = 180 / No. of slots</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Total electrical degree = 180 x No. of slots</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Total electrical degree = 180 / No. of poles</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Total electrical degree = $180^\circ \times \text{No. of poles}$</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Total electrical degree = 180⁰ / No. of slots</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Total electrical degree = 180⁰ x No. of slots</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Total electrical degree = 180⁰ / No. of poles</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Total electrical degree = 180⁰ x No. of poles</li>
 </ul>
 <hr>
 <h3 id="q4">Q4: What is the name of the A.C motor starter?</h3>
@@ -67,30 +67,23 @@ image:
 </ul>
 <details>
   <summary>Show Calculation</summary>
-$P = 10 \times 746 \text{ Watts}$
-  
-$P = 7460 \text{ Watts}$
+\[P = 10 \times 746 \text{ Watts}\]
+  \[P = 7460 \text{ Watts}\]
 
 Assuming standard values for a 3-phase system:
-* Voltage ($V$) = $415 \text{ V}$
-* Power Factor ($\cos\phi$) $\approx 0.8$
-* Efficiency ($\eta$) $\approx 0.85$
-
-$I_{FL} = \frac{P}{\sqrt{3} \times V \times \cos\phi \times \eta}$
-
-$I_{FL} = \frac{7460}{1.732 \times 415 \times 0.8 \times 0.85}$
-
-$I_{FL} = \frac{7460}{488.7}$
-
-$I_{FL} \approx 15.26 \text{ Amps}$
+\[ Voltage (V) = 415 \text{ V}\]
+\[ Power Factor (\cos\phi) \approx 0.8\]
+\[ Efficiency (\eta) \approx 0.85\]
+\[I_{FL} = \frac{P}{\sqrt{3} \times V \times \cos\phi \times \eta}\]
+\[I_{FL} = \frac{7460}{1.732 \times 415 \times 0.8 \times 0.85}\]
+\[I_{FL} = \frac{7460}{488.7}\]
+\[I_{FL} \approx 15.26 \text{ Amps}\]
 
 To handle the starting current (which is higher than full load current), the fuse rating is typically calculated as **1.5 times** the full load current.
 
-$\text{Fuse Rating} = I_{FL} \times 1.5$
-
-$\text{Fuse Rating} = 15.26 \times 1.5$
-
-$\text{Fuse Rating} \approx 22.89 \text{ Amps}$
+\[\text{Fuse Rating} = I_{FL} \times 1.5\]
+\[\text{Fuse Rating} = 15.26 \times 1.5\]
+\[\text{Fuse Rating} \approx 22.89 \text{ Amps}\]
 
 The nearest standard fuse rating available above 22.89 A is **25 A**.
 
@@ -203,13 +196,12 @@ The nearest standard fuse rating available above 22.89 A is **25 A**.
   <summary>Show Calculation</summary>
 The total electrical degrees in a motor is calculated as:
 
-Total Electrical Degrees = $180^\circ \times \text{Number of Poles}$
+\[\text{Total Electrical Degrees} =\]\[ 180^\circ \times \text{Number of Poles}\]
+\[\text{Number of poles (P) = 6}\]
 
-* Number of poles ($P$) = $6$
+\[\text{Total Electrical Degrees} = 180^\circ \times 6\]
 
-$\text{Total Electrical Degrees} = 180^\circ \times 6$
-
-$\text{Total Electrical Degrees} = 1080^\circ$
+\[\text{Total Electrical Degrees} = 1080^\circ\]
 
 </details>
 <hr>
@@ -222,24 +214,24 @@ $\text{Total Electrical Degrees} = 1080^\circ$
 </ul>
 <details>
   <summary>Show Calculation</summary>
-
-$N_{cpp} = \frac{\text{Total Number of Coils}}{\text{Number of Phases} \times \text{Number of Pole Pairs}}$
-
+<gh style="font-size: 12px">
+\[N_{cpp} = \frac{\text{Total Number of Coils}}{\text{Number of Phases} \times \text{Number of Pole Pairs}}\]
+</gh>
 **Given:**
-* Total Number of Coils = $12$
-* Number of Phases = $3$
-* Number of Poles ($P$) = $2$
+\[\text{Total Number of Coils} = 12\]
+\[\text{Number of Phases} = 3\]
+\[\text{Number of Poles (P)} = 2\]
 
 A pair consists of 2 poles (North and South).
-$\text{Pole Pairs} = \frac{P}{2} = \frac{2}{2} = 1$
+\[\text{Pole Pairs} = \frac{P}{2} = \frac{2}{2} = 1\]
 
 Substitute the values into the main formula:
 
-$N_{cpp} = \frac{12}{3 \times 1}$
+\[N_{cpp} = \frac{12}{3 \times 1}\]
 
-$N_{cpp} = \frac{12}{3}$
+\[N_{cpp} = \frac{12}{3}\]
 
-$N_{cpp} = 4$
+\[N_{cpp} = 4\]
 
 </details>
 <hr>
@@ -288,23 +280,23 @@ $N_{cpp} = 4$
 
 The synchronous speed ($N_s$) of an AC induction motor is calculated as:
 
-$N_s = \frac{120 \times f}{P}$
+\[N_s = \frac{120 \times f}{P}\]
 
 Where:
-* $f$ = Frequency in Hertz
-* $P$ = Number of poles
+\[f = Frequency in Hertz\]
+\[P = Number of poles\]
 
 **Given:**
-* Frequency ($f$) = $50 \text{ Hz}$
-* Number of poles ($P$) = $6$
+\[Frequency (f) = 50 \text{ Hz}\]
+\[Number of poles (P) = 6\]
 
 **Calculation:**
 
-$N_s = \frac{120 \times 50}{6}$
+\[N_s = \frac{120 \times 50}{6}\]
 
-$N_s = \frac{6000}{6}$
+\[N_s = \frac{6000}{6}\]
 
-$N_s = 1000 \text{ rpm}$
+\[N_s = 1000 \text{ rpm}\]
 
 </details>
 <hr>
@@ -319,30 +311,34 @@ $N_s = 1000 \text{ rpm}$
   <summary>Show Calculation</summary>
 
 **Formula:**
-$N_s = \frac{120 \times f}{P}$
+
+\[N_s = \frac{120 \times f}{P}\]
 
 **Given:**
-* Frequency ($f$) = $50 \text{ Hz}$
-* Poles ($P$) = $6$
+
+\[Frequency (f) = 50 \text{ Hz}\]
+
+\[Poles (P) = 6\]
 
 **Calculation:**
-$N_s = \frac{120 \times 50}{6}$
 
-$N_s = \frac{6000}{6}$
+\[N_s = \frac{120 \times 50}{6}\]
 
-$N_s = 1000 \text{ rpm}$
+\[N_s = \frac{6000}{6}\]
+
+\[N_s = 1000 \text{ rpm}\]
 
 **Formula:**
 
- $\text{ Slip} = \frac{N_s - N_r}{N_s} \times 100$
+ \[\text{ Slip} = \frac{N_s - N_r}{N_s} \times 100\]
 
-$\text{ Slip} = \frac{1000 - 960}{1000} \times 100$
+\[\text{ Slip} = \frac{1000 - 960}{1000} \times 100\]
 
-$\text{ Slip} = \frac{40}{1000} \times 100$
+\[\text{ Slip} = \frac{40}{1000} \times 100\]
 
-$\text{ Slip} = 0.04 \times 100$
+\[\text{ Slip} = 0.04 \times 100\]
 
-$\text{ Slip} = 4\$%
+\[\text{ Slip} = 4\%\]
 
 </details>
 <hr>
@@ -600,20 +596,20 @@ $\text{ Slip} = 4\$%
 
 **Formula:**
 
-$\text{Coils per Phase per Pole} =$ $\frac{\text{Total Number of Coils}}{\text{Number of Phases} \times \text{Number of Poles}}$
+\[\text{Coils per Phase per Pole} =\]\[\frac{\text{Total Number of Coils}}{\text{Number of Phases} \times \text{Number of Poles}}\]
 
 **Given:**
-* Total Number of Coils = $36$
-* Number of Phases = $3$
-* Number of Poles = $4$
+\[Total Number of Coils = 36\]
+\[Number of Phases = 3\]
+\[Number of Poles = 4\]
 
 **Calculation:**
 
-$\text{Coils per Phase per Pole} = \frac{36}{3 \times 4}$
+\[\text{Coils per Phase per Pole} = \frac{36}{3 \times 4}\]
 
-$\text{Coils per Phase per Pole} = \frac{36}{12}$
+\[\text{Coils per Phase per Pole} = \frac{36}{12}\]
 
-$\text{Coils per Phase per Pole} = 3$
+\[\text{Coils per Phase per Pole} = 3\]
 
 </details>
 <hr>
@@ -684,24 +680,24 @@ $\text{Coils per Phase per Pole} = 3$
 <details>
   <summary>Show Calculation</summary>
 
-  $1 \text{ HP} = 735.5 \text{ Watts}$
+  \[1 \text{ HP} = 735.5 \text{ Watts}\]
 
-$P = 7.5 \times 735.5$
+\[P = 7.5 \times 735.5\]
 
-$P = 5516.25 \text{ Watts}$
+\[P = 5516.25 \text{ Watts}\]
 
-$T = \frac{P \times 60}{2 \pi N}$
+\[T = \frac{P \times 60}{2 \pi N}\]
 
 Where:
-* $P$ = Power in Watts
-* $N$ = Speed in RPM
-* $T$ = Torque in Newton Metres ($Nm$)
+\[\text{P = Power in Watts}\]
+\[\text{N = Speed in RPM}\]
+\[\text{T = Torque in Newton Metres (Nm)}\]
 
-$T = \frac{5516.25 \times 60}{2 \times 3.14159 \times 1440}$
+\[T = \frac{5516.25 \times 60}{2 \times 3.14159 \times 1440}\]
 
-$T = \frac{330975}{9047.78}$
+\[T = \frac{330975}{9047.78}\]
 
-$T \approx 36.58 \text{ Nm}$
+\[T \approx 36.58 \text{ Nm}\]
 
 (Rounding to one decimal place typically gives 36.6 Nm).
 
@@ -776,27 +772,27 @@ $T \approx 36.58 \text{ Nm}$
 <details>
   <summary>Show Calculation</summary>
 
-$\theta_{total} = 180^\circ \times \text{Number of Poles}$
+\[\theta_{total} = 180^\circ \times \text{Number of Poles}\]
 
-$\theta_{total} = 180^\circ \times 4$
+\[\theta_{total} = 180^\circ \times 4\]
 
-$\theta_{total} = 720^\circ$
-
-
-$\theta_{slot} = \frac{\text{Total Electrical Degrees}}{\text{Number of Slots}}$
-
-$\theta_{slot} = \frac{720^\circ}{36}$
-
-$\theta_{slot} = 20^\circ \text{ per slot}$
+\[\theta_{total} = 720^\circ\]
 
 
-For a 3-phase system, the displacement is always $120^\circ$ electrical.
+\[\theta_{slot} = \frac{\text{Total Electrical Degrees}}{\text{Number of Slots}}\]
 
-$\text{Phase Displacement (slots)} = \frac{120^\circ}{\theta_{slot}}$
+\[\theta_{slot} = \frac{720^\circ}{36}\]
 
-$\text{Phase Displacement (slots)} = \frac{120^\circ}{20^\circ}$
+\[\theta_{slot} = 20^\circ \text{ per slot}\]
 
-$\text{Phase Displacement (slots)} = 6 \text{ slots}$
+
+For a 3-phase system, the displacement is always \()120^\circ\) electrical.
+
+\[\text{Phase Displacement (slots)} = \frac{120^\circ}{\theta_{slot}}\]
+
+\[\text{Phase Displacement (slots)} = \frac{120^\circ}{20^\circ}\]
+
+\[\text{Phase Displacement (slots)} = 6 \text{ slots}\]
 
 </details>
 <hr>
