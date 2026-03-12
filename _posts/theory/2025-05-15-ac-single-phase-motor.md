@@ -33,10 +33,10 @@ image:
 <hr>
 <h3 id="q3">Q3: What is the working principle of split phase motor?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Lenz's law</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Lenz's law</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Joule's law</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Faraday's laws of electrolysis</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Faraday's laws of electromagnetic induction</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Faraday's laws of electromagnetic induction</li>
 </ul>
 <hr>
 <h3 id="q4">Q4: Which type of single phase motor is illustrated?</h3>

@@ -731,8 +731,8 @@ Where:
 <h3 id="q68">Q68: What is the name of the winding?</h3>
 <img src="/assets/img/posts/theory/m3-q68.webp" alt="winding type illustrated">
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Skew winding</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Skein winding</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Skew winding</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Skein winding</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Involute coil winding</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Diamond coil winding</li>
 </ul>
