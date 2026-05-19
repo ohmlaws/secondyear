@@ -58,9 +58,9 @@ image:
 <hr>
 <h3 id="q6">Q6: Which converting device can be over loaded?</h3>
 <ul>
-<li onclick="checkAnswer(this, true)" data-correct="true">Rectifier unit</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Rectifier unit</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Rotary converter</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Motor generator set</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Motor generator set</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Mercury arc rectifier</li>
 </ul>
 <hr>
@@ -107,18 +107,18 @@ image:
 <h3 id="q12">Q12: What is the function of the part marked as 'X' of the rotary converter?</h3>
 <img src="/assets/img/posts/theory/m6-q12.webp" alt="Rotary converter part marked X">
 <ul>
-<li onclick="checkAnswer(this, false)" data-correct="false">Converts AC to DC</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Converts AC to DC</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Reduces voltage drop</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Helps to deliver without noise</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Collects the delivered direct current</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Collects the delivered direct current</li>
 </ul>
 <hr>
 <h3 id="q13">Q13: What is the purpose of damper winding in a synchronous motor at starting?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Produce high voltage to initiate the rotation</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Produce high current to start rotate the motor</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Produces torque and runs near in synchronous speed</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Produce a high magnetic-field to maintain a constant speed</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Produces torque and runs near in synchronous speed</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Produce a high magnetic-field to maintain a constant speed</li>
 </ul>
 <hr>
 <h3 id="q14">Q14: Why the synchronous motor fails to run at synchronous speed?</h3>
