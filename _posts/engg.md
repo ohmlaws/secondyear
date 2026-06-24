@@ -1,0 +1,253 @@
+---
+title: "Engineering Drawing"
+description: >-
+  Engineering Drawing
+date: 2025-05-31 11:00:00 +0530
+categories: [2nd year,Engineering Drawing]
+tags: [Engineering Drawing, ITI]
+author: Roni
+image: https://ohmlaws.github.io/firstyear/assets/img/banner/engg-drawing.png
+---
+<br>
+<div onclick="checkAnswer(this)" style="text-align: center;">⭕️ Show all Answers</div>
+<br>
+<hr>
+
+<h3 id="q1">Q1: Identify the symbol used for microphone (general) in electrical and electronic circuits.</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed1-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option B<img src="/assets/img/posts/drawing/ed1-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed1-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed1-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q2">Q2: Which device is used to start and stop a motor?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Slip ring</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Rotor</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Stator</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Starter</li>
+</ul>
+<hr>
+
+<h3 id="q3">Q3: Which is the single pole MCB?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A <img src="/assets/img/posts/drawing/ed3-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B <img src="/assets/img/posts/drawing/ed3-b.jpg" alt="Question Image" style="width:30%"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option C<img src="/assets/img/posts/drawing/ed3-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed3-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q4">Q4: Which part regulates the heat in automatic iron?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Asbestos sheet</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Pressure plate</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Thermostatic switch</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Heating element</li>
+</ul>
+<hr>
+
+<h3 id="q5">Q5: What is the name of the gate?</h3>
+<img src="/assets/img/posts/drawing/ed5.jpg" alt="Question Image">
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">NOT Gate</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Ex-NOR Gate</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">AND Gate</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">OR Gate</li>
+</ul>
+<hr>
+
+<h3 id="q6">Q6: Which is ball peen hammer?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed6-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed6-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed6-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option D<img src="/assets/img/posts/drawing/ed6-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q7">Q7: Identify the batten holder in the following picture.</h3>
+<ul>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option A<img src="/assets/img/posts/drawing/ed7-a.jpg" alt="Question Image" style="width:40%"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed7-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed7-c.jpg" alt="Question Image" style="width:30%"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed7-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q8">Q8: Identify the symbol of battery.</h3>
+<ul>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option A<img src="/assets/img/posts/drawing/ed8-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed8-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed8-c.jpeg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed8-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q9">Q9: Which is photo diode?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed9-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed9-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option C<img src="/assets/img/posts/drawing/ed9-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed9-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q10">Q10: Identify the wave form.</h3>
+<img src="/assets/img/posts/drawing/ed10.jpg" alt="Question Image">
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Saw-tooth wave</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Square wave</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Sine wave</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Triangle wave</li>
+</ul>
+<hr>
+
+<h3 id="q11">Q11: Which is nose pliers?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed11-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed11-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed11-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option D<img src="/assets/img/posts/drawing/ed11-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q12">Q12: Which is protective device?</h3>
+<ul>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Fuse</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Resistor</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Capacitor</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Magnet</li>
+</ul>
+<hr>
+
+<h3 id="q13">Q13: Voltage less than 250 volt is called ______.</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">MT (Medium Tension)</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">LT (Low Tension)</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">EHT (Extra High Tension)</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">HT (High Tension)</li>
+</ul>
+<hr>
+
+<h3 id="q14">Q14: Which is a symbol of DC motor?</h3>
+<ul>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option A<img src="/assets/img/posts/drawing/ed14-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed14-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed14-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed14-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q15">Q15: What is the material of line insulator?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Aluminium</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Porcelain clay</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Copper</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Rubber</li>
+</ul>
+<hr>
+
+<h3 id="q16">Q16: Identify the switch in the given picture.</h3>
+<img src="/assets/img/posts/drawing/ed16.jpg" alt="Question Image">
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Toggle Switch</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Tumbler Switch</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Flux type switch</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Intermediate Switch</li>
+</ul>
+<hr>
+<h3 id="q17">Q17: Identify the 3-pin socket.</h3>
+<ul>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option A<img src="/assets/img/posts/drawing/ed17-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed17-b.png" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed17-c.png" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed17-d.png" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q18">Q18: Which is the NOT gate in the following picture?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed18-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed18-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option C<img src="/assets/img/posts/drawing/ed18-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed18-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q19">Q19: Identify the symbol for direct and alternating current.</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed19-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option B<img src="/assets/img/posts/drawing/ed19-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option C<img src="/assets/img/posts/drawing/ed19-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed19-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q20">Q20: Which is the symbol of earth?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed20-a.png" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option B<img src="/assets/img/posts/drawing/ed20-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed20-c.png" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed20-d.png" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q21">Q21: Which of the following is AC ammeter?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed8-b.jpg" alt="Question Image" style="width:40%"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option B<img src="/assets/img/posts/drawing/ed21-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed21-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed21-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q22">Q22: Choose the symbol for main fuse board without switches (P).</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option A<img src="/assets/img/posts/drawing/ed22-a.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Option B<img src="/assets/img/posts/drawing/ed22-b.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option C<img src="/assets/img/posts/drawing/ed22-c.jpg" alt="Question Image"></li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Option D<img src="/assets/img/posts/drawing/ed22-d.jpg" alt="Question Image"></li>
+</ul>
+<hr>
+
+<h3 id="q23">Q23: What is the name of the symbol?</h3>
+<img src="/assets/img/posts/drawing/ed23.jpg" alt="Question Image">
+<ul>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Condenser microphone</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Loud speaker</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Dynamic microphone</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Microphone</li>
+</ul>
+<hr>
+
+<h3 id="q24">Q24: Which is the static machine that increase or decrease the AC voltage?</h3>
+<ul>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Alternator</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Induction motor</li>
+    <li onclick="checkAnswer(this, false)" data-correct="false">Generator</li>
+    <li onclick="checkAnswer(this, true)" data-correct="true">Transformer</li>
+</ul>
+<hr>
+
+<div class="text-center text-muted mt-3">
+  Found a mistake or mismatch in the question or answer? 
+  <a href="mailto:roniui.github.io@gmail.com?subject=Mistake or mismatch&body=Paste the post link here:%0D%0A%0D%0AQuestion number:%0D%0A%0D%0ADescribe what is wrong:">Let us know via email</a>.
+</div>
+
+
+<script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>
+
+<style>
+ul li {
+  cursor: pointer;
+  margin: 6px 0;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+  </style>
+  
