@@ -6,8 +6,8 @@ date: 2025-05-31 11:00:00 +0530
 categories: [2nd year,Engineering Drawing]
 tags: [Engineering Drawing, ITI]
 author: Roni
-image: https://ohmlaws.github.io/firstyear/assets/img/banner/engg-drawing.png
 ---
+
 <br>
 <div onclick="checkAnswer(this)" style="text-align: center;">⭕️ Show all Answers</div>
 <br>
