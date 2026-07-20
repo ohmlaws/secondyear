@@ -200,8 +200,8 @@ image:
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Starts and stop</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Runs normally</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">Runs in star only</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">Runs in delta only</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">Runs in delta only</li>
+<li onclick="checkAnswer(this, true)" data-correct="true">Runs in star only</li>
 </ul>
 <hr>
 <h3 id="q24">Q24: What is the use of PVC channel in a control panel wiring?</h3>
@@ -252,7 +252,7 @@ image:
 <li onclick="checkAnswer(this, false)" data-correct="false">Control transformer</li>
 </ul>
 <hr>
-<h3 id="q30">Q30: Which DC load is represented by the DC2 standard duty cycle of contactors?</h3>
+<h3 id="q30">Q30: Which DC load is represented by the DC4 standard duty cycle of contactors?</h3>
 <ul>
 <li onclick="checkAnswer(this, false)" data-correct="false">Resistive loads except motor loads</li>
 <li onclick="checkAnswer(this, false)" data-correct="false">Starting and stopping of shunt motor</li>
