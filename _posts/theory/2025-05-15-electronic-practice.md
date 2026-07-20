@@ -132,10 +132,10 @@ image:
 <hr>
 <h3 id="q15">Q15: What is the minimum and maximum value of resistor with four colour bands, red, violet, orange and gold respectively?</h3>
 <ul>
-<li onclick="checkAnswer(this, false)" data-correct="false">237500 - 262500</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">247000 - 273000</li>
-<li onclick="checkAnswer(this, true)" data-correct="true">256500 - 283500</li>
-<li onclick="checkAnswer(this, false)" data-correct="false">224000 - 336000</li>
+<li onclick="checkAnswer(this, false)" data-correct="false">23750 $\Omega$ - 26250 $\Omega$ </li>
+<li onclick="checkAnswer(this, false)" data-correct="false">24700 $\Omega$ - 27300 $\Omega$ </li>
+<li onclick="checkAnswer(this, true)" data-correct="true">25650 $\Omega$ - 28350 $\Omega$ </li>
+<li onclick="checkAnswer(this, false)" data-correct="false">22400 $\Omega$ - 33600 $\Omega$ </li>
 </ul>
 <details>
   <summary>Show Resistance Calculator</summary>
