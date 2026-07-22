@@ -1,0 +1,109 @@
+<!--
+  Jekyll Simple Search loader
+  See: <https://github.com/christian-fei/Simple-Jekyll-Search>
+  functionality to extract and highlight matched snippets in search results added <https://github.com/ohmlaws/ohmlaws.github.io> 
+-->
+{% capture result_elem %}
+  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">
+    <header>
+      <h2><a href="{url}">{title}</a></h2>
+      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">{categories}{tags}</div>
+    </header>
+    <p>{content}</p>
+  </article>
+{% endcapture %}
+
+{% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
+
+<script>
+  {% comment %} Note: dependent library will be loaded in `js-selector.html` {% endcomment %}
+
+  function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function buildRegex(query) {
+    var cleanQuery = query.trim();
+    if (cleanQuery.length < 2) return null;
+
+    var exactPhrase = escapeRegExp(cleanQuery).replace(/\s+/g, '\\s+');
+    return new RegExp('(' + exactPhrase + ')', 'gi');
+  }
+
+  function createSnippet(content, regex) {
+    if (!regex || !content) {
+      return content.length > 180 ? content.substring(0, 180) + '...' : content;
+    }
+
+    var allMatches = content.match(regex);
+    var totalMatches = allMatches ? allMatches.length : 0;
+
+    regex.lastIndex = 0;
+    var match = regex.exec(content);
+
+    if (!match) {
+      return content.length > 180 ? content.substring(0, 180) + '...' : content;
+    }
+
+    var start = Math.max(0, match.index - 100);
+    var end = Math.min(content.length, match.index + match[0].length + 100);
+
+    if (start > 0) {
+      var s = content.indexOf(' ', start);
+      if (s !== -1) start = s + 1;
+    }
+
+    if (end < content.length) {
+      var e = content.lastIndexOf(' ', end);
+      if (e !== -1) end = e;
+    }
+
+    var snippet = content.substring(start, end);
+
+    if (start > 0) snippet = '...' + snippet;
+    if (end < content.length) snippet += '...';
+
+    regex.lastIndex = 0;
+    
+    var finalSnippet = snippet.replace(
+      regex,
+      '<mark class="search-highlight">$1</mark>'
+    );
+
+    if (totalMatches > 1) {
+      var extraMatches = totalMatches - 1;
+      finalSnippet += '<div style="text-align: right; color: #ef9c03; font-size: 0.95em;">+' + extraMatches + ' matches</div>';
+    }
+
+    return finalSnippet;
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '{{ "/assets/js/data/search.json" | relative_url }}',
+      searchResultTemplate: {{ result_elem | strip_newlines | jsonify }},
+      noResultsText: {{ not_found | jsonify }},
+      templateMiddleware: function(prop, value) {
+        var query = document.getElementById('search-input').value.trim();
+        var regex = buildRegex(query);
+
+        if (prop === 'categories') {
+          return value ? '<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>' + value + '</div>' : '';
+        }
+        if (prop === 'tags') {
+          return value ? '<div><i class="fa fa-tag fa-fw"></i>' + value + '</div>' : '';
+        }
+        if (prop === 'content') {
+          return createSnippet(value, regex);
+        }
+        if (prop === 'url') {
+          if (!query) return value;
+          return value + (value.includes('?') ? '&' : '?') + 'highlight=' + encodeURIComponent(query);
+        }
+        return value;
+      }
+    });
+  });
+</script>
