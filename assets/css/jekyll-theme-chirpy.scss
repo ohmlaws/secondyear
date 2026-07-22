@@ -57,6 +57,10 @@ padding-bottom: 0 !important;
 padding-top: 0 !important;
 margin: 2px !important;
 }
+.sidebar-bottom li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 /* Hide the date on individual post pages */
 .post-meta span:has(time) {
     display: none !important;
@@ -76,7 +80,9 @@ margin: 2px !important;
 .card-body time {
     display: none !important;
 }
-
+#post-list .card .card-body .post-meta i:not(:first-child) {
+    margin-left: 0 !important;
+}
 .search-highlight {
   background: var(--prompt-warning-icon-color);
   border-radius: 3px;
