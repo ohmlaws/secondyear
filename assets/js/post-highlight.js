@@ -18,9 +18,11 @@
 
     if (!article) return;
 
+    // --- EXACT PHRASE MATCHING ---
     const cleanQuery = query.trim();
     if (cleanQuery.length < 2) return; 
 
+    // Match the whole phrase exactly as typed, rather than splitting it into individual words
     const exactPhrase = escapeRegExp(cleanQuery).replace(/\s+/g, "\\s+");
     const regex = new RegExp("(" + exactPhrase + ")", "gi");
 
@@ -85,11 +87,23 @@
       node.parentNode.replaceChild(fragment, node);
     });
 
+        // --- FLOATING NAVIGATOR UI ---
     if (matchCount > 0) {
       const marks = document.querySelectorAll(".search-highlight");
       let currentIndex = -1; 
 
-            const floatUI = document.createElement("div");
+      const navStyle = document.createElement("style");
+      navStyle.innerHTML = `
+        #search-highlight-nav {
+          transition: transform 0.4s ease;
+        }
+        [sidebar-display] #search-highlight-nav {
+          transform: translateX(260px); 
+        }
+      `;
+      document.head.appendChild(navStyle);
+
+      const floatUI = document.createElement("div");
       floatUI.id = "search-highlight-nav";
       
       floatUI.style.cssText = `
@@ -121,14 +135,19 @@
       `;
       
       document.body.appendChild(floatUI);
-      const searchTrigger = document.getElementById("search-trigger");
-      const searchInput = document.getElementById("search-input");
-      const searchCancel = document.getElementById("search-cancel");
+
+      // Automatically Hide Navigator during Search ---
+      const searchTrigger = document.getElementById("search-trigger"); // Mobile search icon
+      const searchInput = document.getElementById("search-input");     // Search input box
+      const searchCancel = document.getElementById("search-cancel");   // Cancel button
+
       const hideNav = () => { floatUI.style.display = "none"; };
       const showNav = () => { floatUI.style.display = "flex"; };
 
+      // Hide when search is opened or focused
       if (searchTrigger) searchTrigger.addEventListener("click", hideNav);
       if (searchInput) searchInput.addEventListener("focus", hideNav);
+      // Show again when the search is canceled
       if (searchCancel) searchCancel.addEventListener("click", showNav);
 
       const indexLabel = document.getElementById("highlight-current-index");
@@ -136,10 +155,12 @@
       const btnNext = document.getElementById("btn-next-match");
       const btnClear = document.getElementById("btn-clear-match");
 
+      // Auto-scroll to the first match immediately
       setTimeout(() => {
         btnNext.click();
       }, 300);
 
+      // PREVIOUS BUTTON LOGIC
       btnPrev.addEventListener("click", () => {
         currentIndex = (currentIndex - 1 + marks.length) % marks.length;
         indexLabel.textContent = currentIndex + 1;
@@ -150,6 +171,7 @@
         });
       });
 
+      // NEXT BUTTON LOGIC
       btnNext.addEventListener("click", () => {
         currentIndex = (currentIndex + 1) % marks.length;
         indexLabel.textContent = currentIndex + 1;
