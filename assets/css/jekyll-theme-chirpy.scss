@@ -108,7 +108,7 @@ margin: 2px !important;
     .code-header button {display: none}
     div[class^=language-] .code-header::before {display: none !important}
     .post-navigation {display: none !important}
-    div[onclick^="checkAnswer"],.content p,.footer-center,.footer-right {display: none;}
+    div[onclick^="checkAnswer"], .content p:not(:has(img)), .footer-center, .footer-right {display: none;}
     footer {margin-top: 0px !important}
     /* 1. HIDE THE RIGHT SIDEBAR/PANEL (Keep this from before) */
     #panel-wrapper, 
@@ -132,4 +132,27 @@ margin: 2px !important;
         width: 100% !important;
         max-width: 100% !important;
     }
+      
+    body, 
+    article, 
+    .post-content,
+    main {
+        /* Points (pt) are the standard unit for physical print */
+        font-size: 8pt !important; 
+        line-height: 0.5 !important;
+    }
+
+    h1 { font-size: 14pt !important; }
+    h2 { font-size: 12pt !important; }
+    h3 { font-size: 12pt !important; }
+
+    img, 
+    .post-content img {
+        max-width: 50% !important; 
+        height: auto !important;
+        display: block !important; 
+        page-break-inside: avoid !important; 
+        break-inside: avoid !important; 
+    }
+
 }
